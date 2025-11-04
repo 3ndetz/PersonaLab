@@ -6,7 +6,7 @@
 
 ## Ссылки
 
-- [Интенсив по созданию AI-tuber'a](./docs/aituber_intensive.md)
+- [Интенсив по созданию AI-tuber'a](./docs/INTENSIVE_PLAN.md)
 
 ## О Persona Lab
 
