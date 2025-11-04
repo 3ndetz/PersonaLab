@@ -2,7 +2,7 @@
 
 > [ITMO University](https://itmo.ru/) / [AI Talent Hub](https://ai.itmo.ru/main) / [LLM Lab](https://ai.itmo.ru/llm) / AI Persona lab (👈 you are here)
 
-> TODO вставить картинку какую-нибудь
+*TODO: вставить картинку какую-нибудь*
 
 ## Ссылки
 

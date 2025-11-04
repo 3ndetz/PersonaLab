@@ -29,9 +29,10 @@
 1. Скачать [Fabric Installer](https://fabricmc.net/use/installer/)
 2. Запустить, выбрать версию **1.21**
 3. Нажать Install
-4. В лаунчере появится профиль **Fabric 1.21**
 
-Запустите игру для теста.
+Запустите игру для теста, и чтобы игра создала нужные подпапки по типу `mods` (но если не создаст, вы можете создать сами потом).
+
+Чтобы узнать папку игры точно, можно зайти в игру, нажать Options (Настройки) → Resource Packs (Ресурс-паки) → Open Pack Folder (Открыть папку с паками) → подняться на уровень выше (из папки resourcepacks) → вы в папке игры!
 
 Запомните ПАПКУ установки самой игры (НЕ ЛАУНЧЕРА!).
 
@@ -39,8 +40,6 @@
 
 - **Windows:** `%appdata%\.minecraft\mods`
 - **Linux:** `~/.minecraft/mods`
-
-Чтобы узнать папку игры точно, можно зайти в игру, нажать Options (Настройки) → Resource Packs (Ресурс-паки) → Open Pack Folder (Открыть папку с паками) → подняться на уровень выше (из папки resourcepacks) → вы в папке игры!
 
 ## 4️⃣ Установка модов
 
@@ -53,53 +52,94 @@
 
 ### Необходимые моды
 
-Ссылки на ModRinth, нужно везде выбрать Fabric 1.21 в версиях:
+Нужно пройтись по ссылкам и скачать `.jar` файл каждого мода и кинуть в папку `mods`. Если автоматически не указалось, нужно выбрать Fabric 1.21 при скачивании.
 
-- Cloth config
-- IAS (Ingame Account Switcher)
-- ModMenu
-- No Peeking
-- OkZoomer
+- [Cloth Config](https://modrinth.com/mod/cloth-config/versions?version=1.21&loader=fabric#download)
+- [IAS (Ingame Account Switcher)](https://modrinth.com/mod/in-game-account-switcher/versions?version=1.21&loader=fabric#download)
+- [ModMenu](https://modrinth.com/mod/modmenu/versions?version=1.21&loader=fabric#download)
+- [No Peeking](https://modrinth.com/mod/nopeeking/versions?version=1.21&loader=fabric#download)
+- [OkZoomer](https://modrinth.com/mod/ok-zoomer/versions?version=1.21&loader=fabric#download)
 - [Fabric API](https://modrinth.com/mod/fabric-api/version/oGwyXeEI)
-- VoiceChat
-- NoСhatReports
+- [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat/versions?version=1.21&loader=fabric#download)
+- [NoChatReports](https://modrinth.com/mod/no-chat-reports/versions?version=1.21&loader=fabric#download)
 
 ### Дополнительные моды (опционально)
 
 Для оптимизации:
 
-- FerriteCore
-- ModernFix
+- [FerriteCore](https://modrinth.com/mod/ferrite-core/versions?version=1.21&loader=fabric#download)
+- [ModernFix](https://modrinth.com/mod/modernfix/versions?version=1.21&loader=fabric#download)
 
-полезные утилиты для стримеров:
+Полезные утилиты для стримеров:
 
-- ChatPlus
-- ReplayMod
+- [ChatPlus](https://modrinth.com/mod/chat-plus/versions?version=1.21&loader=fabric#download)
+- [ReplayMod](https://modrinth.com/mod/replaymod/versions?version=1.21&loader=fabric#download)
 
-для улучшенных визуалов:
+Для улучшенных визуалов:
 
-- NotEnoughAnimations
-- Physics Mod
-- Player Animation Lib Fabric
-- Architectury
-- Entity Model Features
-- Entity Texture Features
-- Fabric Language Kotlin
-- FirstPerson
+- [NotEnoughAnimations](https://modrinth.com/mod/notenoughanimations/versions?version=1.21&loader=fabric#download)
+- [Physics Mod](https://modrinth.com/mod/physics-mod/versions?version=1.21&loader=fabric#download)
+- [Player Animation Lib (Fabric)](https://modrinth.com/mod/player-animation-library/versions?version=1.21&loader=fabric#download)
+- [Architectury](https://modrinth.com/mod/architectury-api/versions?version=1.21&loader=fabric#download)
+- [Entity Model Features](https://modrinth.com/mod/entity-model-features/versions?version=1.21&loader=fabric#download)
+- [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures/versions?version=1.21&loader=fabric#download)
+- [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin/versions?version=1.21&loader=fabric#download)
+- [FirstPerson](https://modrinth.com/mod/first-person-model/versions?version=1.21&loader=fabric#download)
 
-## 5️⃣ Подключение к серверу
+## 5️⃣ Сервера
 
-1. Запустить Minecraft 1.21 Fabric
+1. Запустить игру, где установили моды (Minecraft 1.21 с Fabric)
 2. Multiplayer → Add Server
-3. Ввести адрес сервера интенсива
-4. Зарегистрироваться: `/register <пароль> <пароль>`
-5. Войти: `/login <пароль>`
+3. Ввести адрес сервера (IP цифрами, либо домен буквами). Некоторые сервера ещё требуют порт, например `serverip:port`.
+Никаких пробелов после адреса быть не должно!
+
+![alt text](./images/Minecraft/image-3.png)
+
+Несколько серверов, на которых можно побегать-проверить. Это не реклама!
+
+- mc.skybars.me
+  - Там работает VoiceChat
+- mc.musteryworld.top
+  - Есть поддерживаемые миниигры, например `@game bedwars` или `@game skywars`, но предварительно желательно зайти в нужное лобби.
+
+## Основы Minecraft Multiplayer
+
+### 1. Чат
+
+- Для чего: Через него происходит общение в чате и все команды
+- Открыть чат: обычно открывается на кнопку T, команды вводятся в чат с префиксом `/`, для удобства можно прямо открывать чат через кнопку `/`, и введётся префикс команды, например `/spawn`.
+- На серверах выживания и минииграх по типу BedWars есть разделение на командный и общий чат (либо локальный / глобальный). Чтобы все увидели ваше сообщение, вначале нужно ввести префикс `!`, например `!Привет всем!` выведет `Привет всем!` в общий чат.
+
+### 2. Лобби
+
+На больших серверах при заходе вы попадаете в лобби, откуда нужно выбрать нужный сервер.
+
+![alt text](./images/Minecraft/image.png)
+
+В лобби обычно есть порталы или NPC-персонажи.
+Логично, зайдя в портал - вы попадёте в соответсвующую часть сервера.
+
+Так, например, выглядят порталы для миниигр на MusteryWorld (нужно прыгнуть в воду):
+
+![alt text](./images/Minecraft/image-1.png)
+
+Часто в роли порталов могут быть NPC-персонажи, на которых нужно навестись и кликнуть ПКМ (Правой Кнопкой Мыши). Может открыться меню выбора, или вас сразу телепортирует.
+
+![alt text](./images/Minecraft/image-2.png)
+
+### 3. Меню
+
+Также на серверах часто есть меню-предметы, выбрав нужный слот колёсиком мыши и кликнув ПКМ (Правой Кнопкой Мыши) можно открыть меню, в котором кликом можно выбрать нужную опцию
+
+![alt text](./images/Minecraft/image-0.png)
 
 ## 6️⃣ Команды
 
 ### Команды сервера
 
-- `/spawn` — телепорт на спаун
+- Зарегистрироваться: `/register <пароль> <пароль>`
+- Войти: `/login <пароль>`
+- `/spawn` — телепорт на спавн
 - `/tpa <ник>` — запрос телепортации к игроку
 - `/tell <ник> <сообщение>` — личное сообщение
 
