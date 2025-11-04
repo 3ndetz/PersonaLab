@@ -36,8 +36,9 @@
 Запомните ПАПКУ установки самой игры (НЕ ЛАУНЧЕРА!).
 
 Папка игры обычно находится здесь:
-   - **Windows:** `%appdata%\.minecraft\mods`
-   - **Linux:** `~/.minecraft/mods`
+
+- **Windows:** `%appdata%\.minecraft\mods`
+- **Linux:** `~/.minecraft/mods`
 
 Чтобы узнать папку игры точно, можно зайти в игру, нажать Options (Настройки) → Resource Packs (Ресурс-паки) → Open Pack Folder (Открыть папку с паками) → подняться на уровень выше (из папки resourcepacks) → вы в папке игры!
 
@@ -47,7 +48,44 @@
 
 1. Скачать [последний релиз AutoClef](https://github.com/3ndetz/autoclef/releases/latest)
 2. Поместить `.jar` файл в папку `mods` игры:
-3. Запомнить путь к конфиг-файлам: `.minecraft/altoclef/`
+
+Запомните путь к конфиг-файлам: `папка игры/altoclef/`
+
+### Необходимые моды
+
+Ссылки на ModRinth, нужно везде выбрать Fabric 1.21 в версиях:
+
+- Cloth config
+- IAS (Ingame Account Switcher)
+- ModMenu
+- No Peeking
+- OkZoomer
+- [Fabric API](https://modrinth.com/mod/fabric-api/version/oGwyXeEI)
+- VoiceChat
+- NoСhatReports
+
+### Дополнительные моды (опционально)
+
+Для оптимизации:
+
+- FerriteCore
+- ModernFix
+
+полезные утилиты для стримеров:
+
+- ChatPlus
+- ReplayMod
+
+для улучшенных визуалов:
+
+- NotEnoughAnimations
+- Physics Mod
+- Player Animation Lib Fabric
+- Architectury
+- Entity Model Features
+- Entity Texture Features
+- Fabric Language Kotlin
+- FirstPerson
 
 ## 5️⃣ Подключение к серверу
 
@@ -60,11 +98,13 @@
 ## 6️⃣ Команды
 
 ### Команды сервера
+
 - `/spawn` — телепорт на спаун
 - `/tpa <ник>` — запрос телепортации к игроку
 - `/tell <ник> <сообщение>` — личное сообщение
 
 ### Команды бота (AutoClef)
+
 - `@stop` — остановить текущую задачу
 - `@punk` — режим свободного поведения
 - `@game` — игровой режим
@@ -73,7 +113,22 @@
 ## 7️⃣ Voice Chat + TTS
 
 **Настройка голосового чата:**
+
 1. Установить мод [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)
 2. В настройках игры: Options → Voice Chat Settings
 3. Выбрать виртуальный аудиокабель как устройство вывода
 4. Подключить к TTS-системе стримерши
+
+## Дополнительно: конфиг-файлы AutoClef
+
+На этапе установке вы запомнили папку для конфигов, немного пройдёмся по важным настройкам:
+
+`altoclef/configs/butler.json`:
+
+- multiplayer_password` - можно указать свой пароль который игрок регает на серверах через /register, чтобы оно могло заходить само.
+
+ну и в целом там есть важные ещё конфиги, например:
+
+- `altoclef_settings.json/mobDefense` можно отключить автоматическую защиту от мобов и т.д., там много всего
+
+В целом названия параметров обычно говорят сами за себя.
