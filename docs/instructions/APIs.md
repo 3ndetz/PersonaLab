@@ -11,7 +11,9 @@
 1. Перейти в [Twitch Developer Console](https://dev.twitch.tv/console/apps)
 2. Создать новое приложение (New Application)
 3. Указать OAuth Redirect URL: `http://localhost:17563`
-4. Скопировать Client ID и Client Secret, они поднабятся далее
+4. Скопировать Client ID и Client Secret, они понадобятся далее
+- Client ID это идентификатор клиента, он же TWITCH_APP_ID
+- Client Secret это секретный ключ клиент, он же TWITCH_APP_SECRET
 
 ![alt text](images/APIs/image.png)
 

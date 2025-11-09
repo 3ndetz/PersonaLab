@@ -95,7 +95,7 @@ Select.
 
 ![alt text](images/VtubeModel/image.png)
 
-2. Листаем вниз, выбираем Color Picker
+2. Листаем вниз, выбираем Color Picker, вводим код зелёного - `#00FF00`
 
 ![alt text](images/VtubeModel/image-1.png)
 
