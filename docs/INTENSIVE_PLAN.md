@@ -59,10 +59,10 @@
 #### Обязательно установить
 
 - ✅ [Python](https://www.python.org/downloads/) (последняя версия)
-- ✅ [OBS Studio](https://obsproject.com/) → [Инструкция по настройке](../data/raw/Интеграция%20с%20VTube%20Studio%20и%20OBS.md)
-- ✅ [VTube Studio](https://denchisoft.com/) → [Инструкция по настройке](../data/raw/Интеграция%20с%20VTube%20Studio%20и%20OBS.md)
+- ✅ [OBS Studio](https://obsproject.com/) → [Инструкция по настройке](../instructions/OBS.md)
+- ✅ [VTube Studio](https://denchisoft.com/) → [Инструкция по настройке](./instructions/VtubeModel.md)
 - ✅ Виртуальный аудиокабель → [Windows](./instructions/VirtualAudioCable-Windows.md) • [Linux](./instructions/VirtualAudioCable-Linux.md)
-- ✅ [Minecraft 1.21](https://www.minecraft.net/) с модами → [Инструкция](./instructions/Minecraft.md)
+- ✅ Minecraft 1.21 со специальным набором модов → [Инструкция](./instructions/Minecraft.md)
 - Желательно для хорошего TTS и STT:
   - [Docker](https://www.docker.com/) Desktop
   - [Cuda Toolkit 12.9](https://developer.nvidia.com/cuda-12-9-0-download-archive)
@@ -83,11 +83,10 @@
 
 - `10 мин` — Вводное слово и цели интенсива
 - `50 мин` — Живая демонстрация работы AI-стримерши в Minecraft
-- `15 мин` — Установка Minecraft 1.21 и модов → [Инструкция](./instructions/Minecraft.md)
 - `15 мин` — Встреча на сервере, первое взаимодействие с AI
 - `20 мин` — Формирование идей, выбор темы персонажа
 - `10 мин` — Распределение ролей, создание команд (1–5 человек)
-- `10 мин` — Заполнение Google-таблицы с данными команд
+- `10 мин` — Заполнение финальных форм с данными команд, названий проектов
 
 **Результат:** Команды сформированы, у каждой есть идея персонажа
 
