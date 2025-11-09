@@ -58,9 +58,8 @@
 
 #### Обязательно установить
 
-- ✅ [Python](https://www.python.org/downloads/) (последняя версия)
-- ✅ [OBS Studio](https://obsproject.com/) → [Инструкция по настройке](../instructions/OBS.md)
-- ✅ [VTube Studio](https://denchisoft.com/) → [Инструкция по настройке](./instructions/VtubeModel.md)
+- ✅ OBS Studio → [Инструкция по настройке](./instructions/OBS.md)
+- ✅ VTube Studio → [Инструкция по настройке](./instructions/VtubeModel.md)
 - ✅ Виртуальный аудиокабель → [Windows](./instructions/VirtualAudioCable-Windows.md) • [Linux](./instructions/VirtualAudioCable-Linux.md)
 - ✅ Minecraft 1.21 со специальным набором модов → [Инструкция](./instructions/Minecraft.md)
 - Желательно для хорошего TTS и STT:
