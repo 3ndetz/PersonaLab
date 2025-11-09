@@ -59,7 +59,9 @@
 #### Обязательно установить
 
 - ✅ OBS Studio → [Инструкция по настройке](./instructions/OBS.md)
+  - Настраивать будем под Twitch, понадобится аккаунт в нём
 - ✅ VTube Studio → [Инструкция по настройке](./instructions/VtubeModel.md)
+  - Для удобства понадобится установленный [Steam](https://store.steampowered.com/about/) и аккаунт в нём
 - ✅ Виртуальный аудиокабель → [Windows](./instructions/VirtualAudioCable-Windows.md) • [Linux](./instructions/VirtualAudioCable-Linux.md)
 - ✅ Minecraft 1.21 со специальным набором модов → [Инструкция](./instructions/Minecraft.md)
 - Желательно для хорошего TTS и STT:
