@@ -55,7 +55,7 @@
 
 Теперь OBS будет захватывать звук из виртуального кабеля.
 
-> 💡 **Подробнее об OBS:** [OBS.md](./OBS.md)
+> 💡 **Подробнее об OBS:** [OBS](./OBS)
 
 ---
 
@@ -79,7 +79,7 @@
 
 Теперь губы модели будут двигаться под TTS-озвучку!
 
-> 💡 **Подробнее о VTube Studio:** [VtubeModel.md](./VtubeModel.md)
+> 💡 **Подробнее о VTube Studio:** [VtubeModel](./VtubeModel)
 
 ---
 
@@ -108,4 +108,4 @@
 
 - [VB-Audio Official](https://vb-audio.com/)
 - [Документация VB-Audio Cable](https://vb-audio.com/Cable/index.htm)
-- **Для Linux:** [VirtualAudioCable-Linux.md](./VirtualAudioCable-Linux.md)
+- **Для Linux:** [VirtualAudioCable-Linux](./VirtualAudioCable-Linux)
