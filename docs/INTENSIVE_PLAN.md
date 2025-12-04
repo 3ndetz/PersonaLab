@@ -118,7 +118,7 @@ flowchart TD
 |-----|-----|-----|---|---|
 | Prep | ВСЕ | 30м-2ч | Обязательно | Преподготовка |
 
-> Пока что, если видите TODO в инструкциях, можно ориентироваться на [СТАРУЮ](docs/INTENSIVE_PLAN_OLD.md) схему.
+> Пока что, если видите TODO в инструкциях, можно ориентироваться на [СТАРУЮ](docs/INTENSIVE_PLAN_OLD) схему.
 
 Обращаем внимание, что вы заполняли форму [ПРЕДВАРИТЕЛЬНОЙ](https://forms.gle/cPXF1JUPXp2bSxTK7) регистрации (из поста в TG), здесь ниже будет ссылка на форму [ОСНОВНОЙ](https://docs.google.com/forms/d/1qnJxamwzLhPryon-uBwYUslJOP-KU-YltWA_G3pDvo8/edit) обязательной регистрации (но заполнять её лучше после выполнения пунктов ниже).
 
@@ -129,7 +129,7 @@ flowchart TD
    - На английском, от 4 до 12 символов, только буквы и цифры
 3. Придумайте ник вашему персонажу
 4. Заполните [формочку](https://forms.gle/VxHGzWpPp7PaNec78) **ОСНОВНОЙ** регистрации
-5. (*Крайне желательно*) Установите **Minecraft** с **модами** согласно инструкции и минимально освойтесь ([инструкция](docs/instructions/Minecraft.md))
+5. (*Крайне желательно*) Установите **Minecraft** с **модами** согласно инструкции и минимально освойтесь ([инструкция](docs/instructions/Minecraft))
 
     Поставьте необходимый модпак, попробуйте зайти на какой-нибудь сервер, освоить минимальные основы
 
@@ -202,10 +202,10 @@ flowchart TD
 |-----|-----|-----|---|---|
 | 1.3.1 | Хост | | Обязательно |  |
 
-- Установите виртуальный звуковой кабель ([Windows](docs/instructions/VirtualAudioCable-Windows.md), [Mac](docs/instructions/VirtualAudioCable-Mac.md), [Linux](docs/instructions/VirtualAudioCable-Linux.md))
+- Установите виртуальный звуковой кабель ([Windows](docs/instructions/VirtualAudioCable-Windows), [Mac](docs/instructions/VirtualAudioCable-Mac), [Linux](docs/instructions/VirtualAudioCable-Linux))
   - **КРИТИЧНО: ПЕРЕЗАПУСТИТЕ КОМП ПОСЛЕ УСТАНОВКИ!!!**
 - VTube Studio установите из Steam
-- Установите мод AutoClef на Minecraft в папку mods ([инструкция](docs/instructions/Minecraft.md#основной-мод-autoclef))
+- Установите мод AutoClef на Minecraft в папку mods ([инструкция](docs/instructions/Minecraft#основной-мод-autoclef))
   - (в идеале) Базово освойтесь с ним
 
 <details><summary>Если ставили CUDNN для WINDOWS (КРИТИЧНО!)</summary>
@@ -284,11 +284,11 @@ docker pull fishaudio/fish-speech:v1.5.1-dev`
 |----|------|-------|-------------|--------------------|
 | 2.1  | Хост | | Обязательно | Программы |
 
-2.1.1 OBS Studio → [Инструкция по настройке](./instructions/OBS.md)
+2.1.1 OBS Studio → [Инструкция по настройке](./instructions/OBS)
 
 - Настраивать будем под Twitch, понадобится ключ трансляции для него
 
-2.1.2 Настройка VTube Studio → [Инструкция по настройке](./instructions/VtubeModel.md)
+2.1.2 Настройка VTube Studio → [Инструкция по настройке](./instructions/VtubeModel)
 
 ### 2.2 Питонячья часть
 
@@ -301,7 +301,7 @@ docker pull fishaudio/fish-speech:v1.5.1-dev`
 - Скачать репозиторий с [ДИСКА](https://drive.google.com/drive/folders/1pU-wM7Mpy7-rz89I3DkzB9JL6Q6Aq30c?usp=sharing) и засунуть его куда-то в норм место
   - по типу `C:/Repos/repo`
 - Строго следовать инструкциям по установке В ФАЙЛАХ README репозитория
-  - Центральный файл nettyan/README.md
+  - Центральный файл nettyan/README
   - В нём же есть ссылки где лежат инструкции по настройке, `repo/docs/help/...`
 
 (репозиторий не на гите, так как это немного урезанная альфа версия нашей моно-репки ИИ-стримерши, мы не готовы пока его публиковать...)

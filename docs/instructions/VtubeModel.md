@@ -66,8 +66,8 @@ Select.
 
 > 💡 **Подробнее о виртуальных кабелях:**  
 >
-> - Windows: [VirtualAudioCable-Windows.md](./VirtualAudioCable-Windows.md)  
-> - Linux: [VirtualAudioCable-Linux.md](./VirtualAudioCable-Linux.md)
+> - Windows: [VirtualAudioCable-Windows](./VirtualAudioCable-Windows)  
+> - Linux: [VirtualAudioCable-Linux](./VirtualAudioCable-Linux)
 
 ---
 
@@ -87,7 +87,7 @@ Select.
 
    **Не сворачивайте** VTube Studio — оставьте работать на фоне
 
-Теперь в OBS можно выбрать `VtubeStudioCam` как источник видео, вот [инструкция](./OBS.md#-подключение-vtube-studio) как это сделать в OBS.
+Теперь в OBS можно выбрать `VtubeStudioCam` как источник видео, вот [инструкция](./OBS#-подключение-vtube-studio) как это сделать в OBS.
 
 Чтобы в OBS модель выводилась с прозрачным фоном, нужно сделать его прозрачным.
 

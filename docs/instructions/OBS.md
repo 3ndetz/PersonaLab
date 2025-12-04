@@ -26,7 +26,7 @@
 
 ### VTube Studio Virtual Camera (Windows)
 
-1. В VTube Studio включите **"Virtual Webcam"** и оставьте VTube Studio работать в фоне. [Инструкция по виртуальной камере](./VtubeModel.md#-виртуальная-веб-камера).
+1. В VTube Studio включите **"Virtual Webcam"** и оставьте VTube Studio работать в фоне. [Инструкция по виртуальной камере](./VtubeModel#-виртуальная-веб-камера).
 
 **В OBS:**
 2. **"Источники"** → **"+"** → **"Устройство захвата видео"** (Video Capture Device)

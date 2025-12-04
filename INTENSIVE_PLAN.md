@@ -81,7 +81,7 @@ flowchart TD
 |-----|-----|-----|---|---|
 | Prep | ВСЕ | 30м-2ч | Обязательно | Преподготовка |
 
-> Пока что, если видите TODO в инструкциях, можно ориентироваться на [СТАРУЮ](docs/INTENSIVE_PLAN_OLD.md) схему.
+> Пока что, если видите TODO в инструкциях, можно ориентироваться на [СТАРУЮ](docs/INTENSIVE_PLAN_OLD) схему.
 
 Обращаем внимание, что вы заполняли форму [ПРЕДВАРИТЕЛЬНОЙ](https://forms.gle/cPXF1JUPXp2bSxTK7) регистрации (из поста в TG), здесь ниже будет ссылка на форму [ОСНОВНОЙ](https://docs.google.com/forms/d/1qnJxamwzLhPryon-uBwYUslJOP-KU-YltWA_G3pDvo8/edit) обязательной регистрации (но заполнять её лучше после выполнения пунктов ниже).
 
@@ -92,7 +92,7 @@ flowchart TD
    - На английском, от 4 до 12 символов, только буквы и цифры
 3. Придумайте ник вашему персонажу
 4. Заполните [формочку](https://forms.gle/VxHGzWpPp7PaNec78) **ОСНОВНОЙ** регистрации
-5. (*Крайне желательно*) Установите **Minecraft** с **модами** согласно инструкции и минимально освойтесь ([инструкция](docs/instructions/Minecraft.md))
+5. (*Крайне желательно*) Установите **Minecraft** с **модами** согласно инструкции и минимально освойтесь ([инструкция](docs/instructions/Minecraft))
 
     Поставьте необходимый модпак, попробуйте зайти на какой-нибудь сервер, освоить минимальные основы
 
@@ -165,10 +165,10 @@ flowchart TD
 |-----|-----|-----|---|---|
 | 1.3.1 | Хост | | Обязательно |  |
 
-- Установите виртуальный звуковой кабель ([Windows](docs/instructions/VirtualAudioCable-Windows.md), [Mac](docs/instructions/VirtualAudioCable-Mac.md), [Linux](docs/instructions/VirtualAudioCable-Linux.md))
+- Установите виртуальный звуковой кабель ([Windows](docs/instructions/VirtualAudioCable-Windows), [Mac](docs/instructions/VirtualAudioCable-Mac), [Linux](docs/instructions/VirtualAudioCable-Linux))
   - **КРИТИЧНО: ПЕРЕЗАПУСТИТЕ КОМП ПОСЛЕ УСТАНОВКИ!!!**
 - VTube Studio установите из Steam
-- Установите мод AutoClef на Minecraft в папку mods ([инструкция](docs/instructions/Minecraft.md#основной-мод-autoclef))
+- Установите мод AutoClef на Minecraft в папку mods ([инструкция](docs/instructions/Minecraft#основной-мод-autoclef))
   - (в идеале) Базово освойтесь с ним
 
 <details><summary>Если ставили CUDNN для WINDOWS (КРИТИЧНО!)</summary>
@@ -209,4 +209,4 @@ docker pull fishaudio/fish-speech:v1.5.1-dev`
 
 ## Интенсив
 
-Дальнейший план интенсива доступен по ссылке [здесь](docs/INTENSIVE_PLAN.md).
+Дальнейший план интенсива доступен по ссылке [здесь](docs/INTENSIVE_PLAN).
