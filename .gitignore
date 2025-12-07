@@ -195,3 +195,5 @@ docker/filter/feature_filter/data/
 docker/filter/models/
 src/agent/temp
 uv.lock
+
+data/
