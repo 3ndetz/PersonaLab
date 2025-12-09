@@ -1,0 +1,10 @@
+site_name: PersonaLab
+# 
+site_author: 3ndetz
+# 
+docs_dir: docs
+
+# markdown_extensions:
+#   - attr_list
+#   - def_list
+# 
