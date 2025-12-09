@@ -301,11 +301,11 @@ docker pull fishaudio/fish-speech:v1.5.1-dev`
 |----|----|------|-------------|
 | 2.1  | 2 | Хост | Обязательно |
 
-2.1.1 OBS Studio → [Инструкция по настройке](./instructions/OBS.md)
+2.1.1 OBS Studio → [Инструкция по настройке](docs/instructions/OBS.md)
 
 - Настраивать будем под Twitch, понадобится ключ трансляции для него
 
-2.1.2 Настройка VTube Studio → [Инструкция по настройке](./instructions/VtubeModel.md)
+2.1.2 Настройка VTube Studio → [Инструкция по настройке](docs/instructions/VtubeModel.md)
 
 ### 2.2 Питонячья часть
 
