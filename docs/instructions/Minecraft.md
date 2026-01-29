@@ -104,8 +104,8 @@
 
 Для улучшенных визуалов:
 
-- [NotEnoughAnimations](https://modrinth.com/mod/notenoughanimations/versions?version=1.21&loader=fabric#download)
-- [Physics Mod](https://modrinth.com/mod/physics-mod/versions?version=1.21&loader=fabric#download)
+- [NotEnoughAnimations]([https://modrinth.com/mod/notenoughanimations/versions?version=1.21&loader=fabric#download](https://modrinth.com/mod/not-enough-animations?version=1.21.1&loader=fabric#download))
+- [Physics Mod]([https://modrinth.com/mod/physics-mod/versions?version=1.21&loader=fabric#download](https://modrinth.com/mod/physicsmod?version=1.21.1&loader=fabric#download))
 - [Player Animation Lib (Fabric)](https://modrinth.com/mod/player-animation-library/versions?version=1.21&loader=fabric#download)
 - [Architectury](https://modrinth.com/mod/architectury-api/versions?version=1.21&loader=fabric#download)
 - [Entity Model Features](https://modrinth.com/mod/entity-model-features/versions?version=1.21&loader=fabric#download)
